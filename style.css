@@ -1,0 +1,65 @@
+body {
+    background-image: url('ewe.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* ഹെഡിംഗ് സ്റ്റൈൽ */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* ബട്ടൺ സ്റ്റൈൽ */
+.my-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* ഇമേജ് സെന്റർ ആക്കാൻ */
+.algorithm-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ഇമേജ് വട്ടത്തിലാക്കാനും നീല ഗ്ലോ നൽകാനും */
+.algorithm-image {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 173, 181, 0.8), 
+               0 0 60px rgba(0, 173, 181, 0.4);
+    border: 3px solid #00adb5;
+}
+
+/* Image Square aakkaanum center cheyyaanum */
+.algorithm-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0px; /* Square aakkaan ithu 0px aakkanam */
+    border: 3px solid #00adb5;
+    box-shadow: 0 0 20px rgba(0, 173, 181, 0.6);
+}
